@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
+
+body {
+    font-family: 'Advent Pro', sans-serif;
+    background-color: rgba(248, 230, 203, 0.436);
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    margin-bottom: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ********************************* NAVBAR ***************************** */
+header nav {
+    overflow: hidden;
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+
+}
+
+#logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float: left;
+}
+
+#Exterieur {
+  
+    padding: 10px 0px 100px 0;
+}
+
+#Intérieur {
+    
+    padding: 10px 0px 100px 0;
+}
+
+
+#Détente {
+   
+    padding: 10px 0px 100px 0;
+}
+
+#Repas {
+    
+    padding: 10px 0px 100px 0;
+}
+
+#Eau {
+    
+    padding: 10px 0px 100px 0;
+}
+
+#Info {
+  
+    padding: 10px 0px 100px 0;
+}
+
+
+#textIntro {
+    padding: 0px 20%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.imagesconteneur-grid img {
+
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 5px 6px 15px 5px rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
+
+}
+
+.conteneur-grid {
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-gap: 15px;
+    justify-content: space-around
+}
+
+
+
+.conteneur-grid img {
+
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 5px 6px 15px 5px rgba(0, 0, 0, 0.6);
+
+}
+@media (max-width : 1270px) {
+    .conteneur-grid img {
+
+        width: 80%;
+        
+    
+    }
+    
+    }
+    @media (max-width : 650px) {
+        
+        #logo {
+            font-size: 1.2em;
+        }
+        header li {
+            float: right;
+            font-size: 1em;
+            
+        }
+        header li a {
+          
+            padding: 10px 10px;
+        
+        }
+      
+        }
+
+.Retour {
+    font-size: 1.5em;
+    border-radius: 10px 10px 10px 10px;
+    background-color: bisque;
+
+}
+
+Retour hover {
+    background-color: rgb(235, 235, 246);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+footer {
+    background-color: rgba(255, 228, 196, 0.811);
+    color: rgb(0, 0, 0);
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 900 px;
+}
+
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: rgba(166, 167, 168, 0.825);
+    margin: 60px auto;
+}
+
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: rgb(0, 0, 0);
+
+}
+
+#icons {
+    width: 50%;
+    text-align: right;
+}
+
+#icons a {
+    display: inline-block;
+    margin: 0 15px;
+}
